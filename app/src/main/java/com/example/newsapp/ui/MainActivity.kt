@@ -30,6 +30,5 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this,viewModelProviderFactory).get(NewsViewModel::class.java)
         bottomNavigationView = findViewById(R.id.bottomNavigationView)
         bottomNavigationView.setupWithNavController(navController)
-
     }
 }
